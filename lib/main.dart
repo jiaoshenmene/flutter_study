@@ -3,10 +3,15 @@ import 'package:flutter_l1/statefull_group_page.dart';
 import 'package:flutter_l1/flutter_layout_page.dart';
 import 'package:flutter_l1/music/music_app.dart';
 
+import 'package:flutter_l1/music/base/app_config.dart';
+
+import 'package:flutter_l1/platform_channel/platform_channel.dart';
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -20,6 +25,7 @@ class MyApp extends StatelessWidget {
         'ful': (BuildContext context) => StateFullGroup(),
         'layout': (BuildContext context) => FlutterLayoutPage(),
         'musicapp': (BuildContext context) => MusicApp(),
+        'channel': (BuildContext context) => PlatformChannel(),
       },
     );
   }
@@ -35,6 +41,13 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    AppConfig.init();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -72,7 +85,8 @@ class _RouteNavigator extends State<RouteNavigator> {
               }),
           _item('StatefulWidget与基组件', StateFullGroup(), 'ful'),
           _item('Flutter布局', FlutterLayoutPage(), 'layout'),
-          _item('MusicAPP', MusicApp(), 'musicapp')
+          _item('MusicAPP', MusicApp(), 'musicapp'),
+          _item('channel', PlatformChannel(), 'musicapp')
         ],
       ),
     );
