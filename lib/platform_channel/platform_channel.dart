@@ -9,7 +9,7 @@ class PlatformChannel extends StatefulWidget {
 
 class _PlatformChannelState extends State<PlatformChannel> {
   static const MethodChannel methodChannel =
-      MethodChannel('sample.flutter.io/battery');
+      MethodChannel('samples.flutter.io/battery');
   static const EventChannel eventChannel =
       EventChannel('samples.flutter.io/charging');
 
