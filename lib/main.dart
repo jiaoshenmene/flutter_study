@@ -6,6 +6,7 @@ import 'package:flutter_l1/music/music_app.dart';
 import 'package:flutter_l1/music/base/app_config.dart';
 
 import 'package:flutter_l1/platform_channel/platform_channel.dart';
+import 'package:flutter_l1/platform_view/platform_view.dart';
 
 void main() => runApp(MyApp());
 
@@ -26,6 +27,7 @@ class MyApp extends StatelessWidget {
         'layout': (BuildContext context) => FlutterLayoutPage(),
         'musicapp': (BuildContext context) => MusicApp(),
         'channel': (BuildContext context) => PlatformChannel(),
+        'channel_view': (BuildContext context) => PlatformView(),
       },
     );
   }
@@ -86,7 +88,8 @@ class _RouteNavigator extends State<RouteNavigator> {
           _item('StatefulWidget与基组件', StateFullGroup(), 'ful'),
           _item('Flutter布局', FlutterLayoutPage(), 'layout'),
           _item('MusicAPP', MusicApp(), 'musicapp'),
-          _item('channel', PlatformChannel(), 'musicapp')
+          _item('channel', PlatformChannel(), 'musicapp'),
+          _item('channel_view', PlatformView(), 'channel_view')
         ],
       ),
     );
