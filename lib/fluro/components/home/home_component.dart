@@ -123,7 +123,7 @@ class _HomeComponentState extends State<HomeComponent> {
                 splashColor: Color(0x22FFFFFF),
                 child: Text(title, style: TextStyle(color: Color(0xAA001133))),
                 onPressed: () {
-                  print('onpress');
+                  tappedMenuButton(context, key);
                 })));
   }
 
@@ -169,6 +169,31 @@ class _HomeComponentState extends State<HomeComponent> {
           Application.router.navigateTo(context, '/demo/func?message=$result');
         }
       });
+    } else if (key == 'custom') {
+      hexCode = '#DFF700';
+      message =
+          'This screen should have appeared with a crazy custom transition';
+      var transition = (BuildContext context, Animation<double> animation,
+          Animation<double> secondaryAnimation, Widget child) {
+        return ScaleTransition(
+          scale: animation,
+          child: RotationTransition(
+            turns: animation,
+            child: child,
+          ),
+        );
+      };
+      Application.router.navigateTo(
+          context, '/demo?message=$message&color_hex=$hexCode',
+          transition: TransitionType.custom,
+          transitionBuilder: transition,
+          transitionDuration: Duration(milliseconds: 600));
+    } else if (key == 'fixed-trans') {
+      Application.router.navigateTo(
+          context, '/demo/fixedtrans?message=Hello!&color_hex=#f4424b');
+    } else {
+      message = 'You tapped the function button!';
+      Application.router.navigateTo(context, '/demo/func?message=$message');
     }
   }
 }

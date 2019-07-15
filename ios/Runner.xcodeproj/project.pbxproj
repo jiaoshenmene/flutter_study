@@ -21,6 +21,18 @@
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
 		A15BDB7322DAB7CF00ACFA20 /* PlatformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A15BDB7222DAB7CF00ACFA20 /* PlatformViewController.m */; };
+		A1C3074B22DCA4CB002453E8 /* .gitIgnore in Resources */ = {isa = PBXBuildFile; fileRef = A1C3073422DCA4CB002453E8 /* .gitIgnore */; };
+		A1C3074C22DCA4CB002453E8 /* libBaiduSpeechSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C3074922DCA4CB002453E8 /* libBaiduSpeechSDK.a */; };
+		A1C3074D22DCA4CB002453E8 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A1C3074A22DCA4CB002453E8 /* .gitignore */; };
+		A1C3074F22DCA506002453E8 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C3074E22DCA506002453E8 /* libc++.tbd */; };
+		A1C3075122DCA50F002453E8 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C3075022DCA50F002453E8 /* libz.1.2.5.tbd */; };
+		A1C3075322DCA516002453E8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C3075222DCA516002453E8 /* AudioToolbox.framework */; };
+		A1C3075522DCA51E002453E8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C3075422DCA51E002453E8 /* AVFoundation.framework */; };
+		A1C3075722DCA525002453E8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C3075622DCA525002453E8 /* CFNetwork.framework */; };
+		A1C3075922DCA535002453E8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C3075822DCA535002453E8 /* CoreLocation.framework */; };
+		A1C3075B22DCA53C002453E8 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C3075A22DCA53C002453E8 /* CoreTelephony.framework */; };
+		A1C3075D22DCA545002453E8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C3075C22DCA545002453E8 /* SystemConfiguration.framework */; };
+		A1C3075F22DCA550002453E8 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C3075E22DCA550002453E8 /* GLKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -61,6 +73,38 @@
 		97C147021CF9000F007C117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A15BDB7122DAB7CF00ACFA20 /* PlatformViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlatformViewController.h; sourceTree = "<group>"; };
 		A15BDB7222DAB7CF00ACFA20 /* PlatformViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlatformViewController.m; sourceTree = "<group>"; };
+		A1C3073122DCA4CB002453E8 /* BDSWakeupParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSWakeupParameters.h; sourceTree = "<group>"; };
+		A1C3073222DCA4CB002453E8 /* BDSASRParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSASRParameters.h; sourceTree = "<group>"; };
+		A1C3073322DCA4CB002453E8 /* BDSEventManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSEventManager.h; sourceTree = "<group>"; };
+		A1C3073422DCA4CB002453E8 /* .gitIgnore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitIgnore; sourceTree = "<group>"; };
+		A1C3073522DCA4CB002453E8 /* BDSUploaderDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSUploaderDefines.h; sourceTree = "<group>"; };
+		A1C3073622DCA4CB002453E8 /* BDSASRDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSASRDefines.h; sourceTree = "<group>"; };
+		A1C3073722DCA4CB002453E8 /* BDSUploaderParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSUploaderParameters.h; sourceTree = "<group>"; };
+		A1C3073822DCA4CB002453E8 /* BDSWakeupDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSWakeupDefines.h; sourceTree = "<group>"; };
+		A1C3073A22DCA4CB002453E8 /* BDRecognizerViewParamsObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDRecognizerViewParamsObject.h; sourceTree = "<group>"; };
+		A1C3073B22DCA4CB002453E8 /* BDRecognizerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDRecognizerViewController.h; sourceTree = "<group>"; };
+		A1C3073C22DCA4CB002453E8 /* BDTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDTheme.h; sourceTree = "<group>"; };
+		A1C3073D22DCA4CB002453E8 /* BDRecognizerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDRecognizerViewDelegate.h; sourceTree = "<group>"; };
+		A1C3073F22DCA4CB002453E8 /* BDSSpeechSynthesizerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSpeechSynthesizerDelegate.h; sourceTree = "<group>"; };
+		A1C3074022DCA4CB002453E8 /* BDS_EttsModelManagerInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDS_EttsModelManagerInterface.h; sourceTree = "<group>"; };
+		A1C3074122DCA4CB002453E8 /* BDSBuiltInPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSBuiltInPlayer.h; sourceTree = "<group>"; };
+		A1C3074222DCA4CB002453E8 /* BDSMixedModeSynthesizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSMixedModeSynthesizer.h; sourceTree = "<group>"; };
+		A1C3074322DCA4CB002453E8 /* BDSSpeechSynthesizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSpeechSynthesizer.h; sourceTree = "<group>"; };
+		A1C3074422DCA4CB002453E8 /* BDSSpeechSynthesizerParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSpeechSynthesizerParams.h; sourceTree = "<group>"; };
+		A1C3074522DCA4CB002453E8 /* BDSSynthesizerLogLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSynthesizerLogLevel.h; sourceTree = "<group>"; };
+		A1C3074622DCA4CB002453E8 /* BDSTTSEventManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSTTSEventManager.h; sourceTree = "<group>"; };
+		A1C3074722DCA4CB002453E8 /* BDSSpeechSynthesizerErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSpeechSynthesizerErrors.h; sourceTree = "<group>"; };
+		A1C3074922DCA4CB002453E8 /* libBaiduSpeechSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBaiduSpeechSDK.a; sourceTree = "<group>"; };
+		A1C3074A22DCA4CB002453E8 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		A1C3074E22DCA506002453E8 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		A1C3075022DCA50F002453E8 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		A1C3075222DCA516002453E8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A1C3075422DCA51E002453E8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A1C3075622DCA525002453E8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A1C3075822DCA535002453E8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A1C3075A22DCA53C002453E8 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		A1C3075C22DCA545002453E8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A1C3075E22DCA550002453E8 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +112,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1C3075F22DCA550002453E8 /* GLKit.framework in Frameworks */,
+				A1C3075D22DCA545002453E8 /* SystemConfiguration.framework in Frameworks */,
+				A1C3075B22DCA53C002453E8 /* CoreTelephony.framework in Frameworks */,
+				A1C3075922DCA535002453E8 /* CoreLocation.framework in Frameworks */,
+				A1C3075722DCA525002453E8 /* CFNetwork.framework in Frameworks */,
+				A1C3075522DCA51E002453E8 /* AVFoundation.framework in Frameworks */,
+				A1C3075322DCA516002453E8 /* AudioToolbox.framework in Frameworks */,
+				A1C3075122DCA50F002453E8 /* libz.1.2.5.tbd in Frameworks */,
+				A1C3074F22DCA506002453E8 /* libc++.tbd in Frameworks */,
+				A1C3074C22DCA4CB002453E8 /* libBaiduSpeechSDK.a in Frameworks */,
 				9705A1C61CF904A100538489 /* Flutter.framework in Frameworks */,
 				3B80C3941E831B6300D905FE /* App.framework in Frameworks */,
 				195F7175C0F599E7A21CB982 /* libPods-Runner.a in Frameworks */,
@@ -80,6 +134,15 @@
 		5DBD69B45BDE525B4A99E1D1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A1C3075E22DCA550002453E8 /* GLKit.framework */,
+				A1C3075C22DCA545002453E8 /* SystemConfiguration.framework */,
+				A1C3075A22DCA53C002453E8 /* CoreTelephony.framework */,
+				A1C3075822DCA535002453E8 /* CoreLocation.framework */,
+				A1C3075622DCA525002453E8 /* CFNetwork.framework */,
+				A1C3075422DCA51E002453E8 /* AVFoundation.framework */,
+				A1C3075222DCA516002453E8 /* AudioToolbox.framework */,
+				A1C3075022DCA50F002453E8 /* libz.1.2.5.tbd */,
+				A1C3074E22DCA506002453E8 /* libc++.tbd */,
 				34D6605E3BDAAF30F7434D92 /* libPods-Runner.a */,
 			);
 			name = Frameworks;
@@ -101,6 +164,8 @@
 		97C146E51CF9000F007C117D = {
 			isa = PBXGroup;
 			children = (
+				A1C3072F22DCA4CB002453E8 /* BDSClientHeaders */,
+				A1C3074822DCA4CB002453E8 /* BDSClientLib */,
 				9740EEB11CF90186004384FC /* Flutter */,
 				97C146F01CF9000F007C117D /* Runner */,
 				97C146EF1CF9000F007C117D /* Products */,
@@ -141,6 +206,67 @@
 				97C146F21CF9000F007C117D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1C3072F22DCA4CB002453E8 /* BDSClientHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				A1C3073022DCA4CB002453E8 /* ASR */,
+				A1C3073E22DCA4CB002453E8 /* TTS */,
+			);
+			path = BDSClientHeaders;
+			sourceTree = "<group>";
+		};
+		A1C3073022DCA4CB002453E8 /* ASR */ = {
+			isa = PBXGroup;
+			children = (
+				A1C3073122DCA4CB002453E8 /* BDSWakeupParameters.h */,
+				A1C3073222DCA4CB002453E8 /* BDSASRParameters.h */,
+				A1C3073322DCA4CB002453E8 /* BDSEventManager.h */,
+				A1C3073422DCA4CB002453E8 /* .gitIgnore */,
+				A1C3073522DCA4CB002453E8 /* BDSUploaderDefines.h */,
+				A1C3073622DCA4CB002453E8 /* BDSASRDefines.h */,
+				A1C3073722DCA4CB002453E8 /* BDSUploaderParameters.h */,
+				A1C3073822DCA4CB002453E8 /* BDSWakeupDefines.h */,
+				A1C3073922DCA4CB002453E8 /* UIHeaders */,
+			);
+			path = ASR;
+			sourceTree = "<group>";
+		};
+		A1C3073922DCA4CB002453E8 /* UIHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				A1C3073A22DCA4CB002453E8 /* BDRecognizerViewParamsObject.h */,
+				A1C3073B22DCA4CB002453E8 /* BDRecognizerViewController.h */,
+				A1C3073C22DCA4CB002453E8 /* BDTheme.h */,
+				A1C3073D22DCA4CB002453E8 /* BDRecognizerViewDelegate.h */,
+			);
+			path = UIHeaders;
+			sourceTree = "<group>";
+		};
+		A1C3073E22DCA4CB002453E8 /* TTS */ = {
+			isa = PBXGroup;
+			children = (
+				A1C3073F22DCA4CB002453E8 /* BDSSpeechSynthesizerDelegate.h */,
+				A1C3074022DCA4CB002453E8 /* BDS_EttsModelManagerInterface.h */,
+				A1C3074122DCA4CB002453E8 /* BDSBuiltInPlayer.h */,
+				A1C3074222DCA4CB002453E8 /* BDSMixedModeSynthesizer.h */,
+				A1C3074322DCA4CB002453E8 /* BDSSpeechSynthesizer.h */,
+				A1C3074422DCA4CB002453E8 /* BDSSpeechSynthesizerParams.h */,
+				A1C3074522DCA4CB002453E8 /* BDSSynthesizerLogLevel.h */,
+				A1C3074622DCA4CB002453E8 /* BDSTTSEventManager.h */,
+				A1C3074722DCA4CB002453E8 /* BDSSpeechSynthesizerErrors.h */,
+			);
+			path = TTS;
+			sourceTree = "<group>";
+		};
+		A1C3074822DCA4CB002453E8 /* BDSClientLib */ = {
+			isa = PBXGroup;
+			children = (
+				A1C3074922DCA4CB002453E8 /* libBaiduSpeechSDK.a */,
+				A1C3074A22DCA4CB002453E8 /* .gitignore */,
+			);
+			path = BDSClientLib;
 			sourceTree = "<group>";
 		};
 		C66328B63A62AC877DEF309D /* Pods */ = {
@@ -223,7 +349,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */,
+				A1C3074D22DCA4CB002453E8 /* .gitignore in Resources */,
 				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
+				A1C3074B22DCA4CB002453E8 /* .gitIgnore in Resources */,
 				9740EEB41CF90195004384FC /* Debug.xcconfig in Resources */,
 				97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */,
 				97C146FC1CF9000F007C117D /* Main.storyboard in Resources */,
@@ -407,6 +535,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
+					"$(PROJECT_DIR)/BDSClientLib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mcy.flutterL1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -534,6 +663,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
+					"$(PROJECT_DIR)/BDSClientLib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mcy.flutterL1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -559,6 +689,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
+					"$(PROJECT_DIR)/BDSClientLib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mcy.flutterL1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
