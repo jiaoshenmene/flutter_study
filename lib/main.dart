@@ -7,6 +7,8 @@ import 'package:flutter_l1/music/base/app_config.dart';
 
 import 'package:flutter_l1/platform_channel/platform_channel.dart';
 import 'package:flutter_l1/platform_view/platform_view.dart';
+import 'package:flutter_l1/fluro/fluro_app.dart';
+
 
 void main() => runApp(MyApp());
 
@@ -28,6 +30,7 @@ class MyApp extends StatelessWidget {
         'musicapp': (BuildContext context) => MusicApp(),
         'channel': (BuildContext context) => PlatformChannel(),
         'channel_view': (BuildContext context) => PlatformView(),
+        'fluro_app': (BuildContext context) => FluroApp()
       },
     );
   }
@@ -89,7 +92,8 @@ class _RouteNavigator extends State<RouteNavigator> {
           _item('Flutter布局', FlutterLayoutPage(), 'layout'),
           _item('MusicAPP', MusicApp(), 'musicapp'),
           _item('channel', PlatformChannel(), 'musicapp'),
-          _item('channel_view', PlatformView(), 'channel_view')
+          _item('channel_view', PlatformView(), 'channel_view'),
+          _item('fluro_app', FluroApp(), 'fluro_app'),
         ],
       ),
     );
